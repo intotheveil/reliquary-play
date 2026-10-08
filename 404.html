@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reliquary has moved</title>
+<meta name="theme-color" content="#000000">
+<script>
+if ("serviceWorker" in navigator) navigator.serviceWorker.getRegistrations()
+  .then(function (rs) { rs.forEach(function (r) { r.unregister(); }); }).catch(function () {});
+location.replace("https://intotheveil.github.io/reliquary-app/" + location.hash);
+</script>
+</head>
+<body style="background:#000;color:#c9b98a;font:18px serif;display:grid;place-items:center;height:100vh;margin:0">
+<a style="color:#c9b98a" href="https://intotheveil.github.io/reliquary-app/">Reliquary has moved. Continue.</a>
+</body></html>
